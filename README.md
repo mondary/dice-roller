@@ -1,7 +1,8 @@
-# Dice Roller
+# DICE ROLLERS
 
-This is a simple dice roller written in pure HTML/CSS/JS.
+Ceci est un simple jet de dés écrit en HTML/CSS/JS pur.
 
-No dependencies and no building required, just deploy these files onto a server.
+Aucune dépendance et aucune construction ne sont nécessaires, il suffit de déployer ces fichiers sur un serveur.
 
-It is primarily intended for use as an embedded iFrame on Notion pages, such as my [D&D character sheet template](https://www.notion.so/awright/D-D-character-sheet-template-e4314276eb2d43d3a4e7dfa12ed0fbcf). It is hosted at https://dice.adamw.uk, using Cloudflare Pages.
+Il est principalement destiné à être utilisé comme iFrame intégré dans des pages Notion, comme mon [modèle de feuille de personnage D&D] (https://www.notion.so/awright/D-D-character-sheet-template-e4314276eb2d43d3a4e7dfa12ed0fbcf).
+Il est hébergé sur https://dice.adamw.uk, en utilisant Cloudflare Pages.

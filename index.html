@@ -2,55 +2,31 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Dice roller</title>
-    <link rel="icon" type="image/svg+xml" href="favicon.svg">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=PT+Serif&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="main.css?v=16062021" media="nope!" onload="this.media='all'">
-    <style>
-        .hidden {
-            visibility: hidden;
-        }
-
-        body:not(.hidden) {
-            animation: fadein 200ms ease-in-out forwards;
-        }
-
-        @keyframes fadein {
-            0% {
-                opacity: 0;
-            }
-
-            50% {
-                opacity: 0;
-            }
-
-            100% {
-                opacity: 1;
-            }
-        }
-    </style>
+  <meta charset="UTF-8">
+  <title>Dice roller</title>
+  <link rel="stylesheet" href="main.css?v=16062021" media="nope!" onload="this.media='all'">
 </head>
 
 <body class="hidden">
-    <div id="total-container">
-    </div>
-    <div id="dice-buttons">
-        <button id="d20" onclick="addDie(20)">+d20</button>
-        <button id="d12" onclick="addDie(12)">+d12</button>
-        <button id="d10" onclick="addDie(10)">+d10</button>
-        <button id="d8" onclick="addDie(8)">+d8</button>
-        <button id="d6" onclick="addDie(6)">+d6</button>
-        <button id="d4" onclick="addDie(4)">+d4</button>
-        <button id="d100" onclick="addDie(100)">+d100</button>
-    </div>
-    <div id="dice"></div>
-    <small>Like this tool? Please take a <a href="https://tripetto.app/run/VGRA6Q849I" target="_blank">quick survey</a>.<small>
 
-    <script src="main.js"></script>
+  <!-- TOTAL  -->
+  <div id="total-container">
+  </div>
+
+  <!-- DICE BUTTONS -->
+  <div id="dice-buttons">
+    <button id="d4" onclick="addDie(4)">+d4</button>
+    <button id="d6" onclick="addDie(6)">+d6</button>
+    <button id="d8" onclick="addDie(8)">+d8</button>
+    <button id="d10" onclick="addDie(10)">+d10</button>
+    <button id="d12" onclick="addDie(12)">+d12</button>
+    <button id="d20" onclick="addDie(20)">+d20</button>
+    <button id="d100" onclick="addDie(100)">+d100</button>
+  </div>
+
+  <!-- RESULTS -->
+  <div id="dice"></div>
+
+  <script src="main.js"></script>
 </body>
-
 </html>
